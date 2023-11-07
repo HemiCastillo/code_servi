@@ -1,0 +1,20 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;700&display=swap');
+
+/*desktop*/
+@media screen and (max-width: 1200px){
+	.main1, .main2, .main3{
+		flex-direction: column;
+}
+} 
+
+/*mobile*/
+@media screen and (max-width: 576px){
+	.main1, .main2, .main3{
+		flex-direction: column;
+}
+} 
+
+* {
+    font-family: 'Jost', sans-serif;
+}
