@@ -8,7 +8,63 @@
 	--color-light-purple: #4D3C77;
 	--color-maroon: #3F1D38;
 	--color-black: #f000;
+	/* crear vARIABLES del font-size */
 
+}
+
+*{
+	font-family: 'Jost', sans-serif;
+	text-decoration: none;
+	font-size: 18px;
+}
+
+a{
+	text-decoration: none;
+}
+
+.header{
+	background-color: #E19898;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	height: 10vh;
+	align-items: center;
+	flex-direction: row;
+}
+
+.logo{
+	margin: 5px 30px;
+}
+
+.navbar{
+	display: flex;
+	flex-direction: row;
+	width: 15%;
+	justify-content: space-between;
+	margin: 5px 30px;
+}
+.menu{
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+}
+
+.menu li a{
+	color: var(--color-white);
+}
+
+.link {
+	background: var(--color-dark-purple);
+	opacity: 50%;
+	color: var(--color-white);
+	padding: 5px 15px;
+	border-radius: 20px;
+	border: 1px solid var(--color-white);
+}
+  
+.link:hover {
+	text-decoration:none;
+	cursor:pointer;
 }
 
 /*desktop*/
@@ -19,12 +75,36 @@
 } 
 
 /*mobile*/
-@media screen and (max-width: 576px){
+@media screen and (max-width: 768px){
+	.header{
+		display: flex;
+		justify-content: center;
+	}
+
+	.logo{
+		justify-content: center; /* Centra horizontalmente */
+  		align-items: center; /* Centra verticalmente */
+	}
+
+	.navbar{
+		height: 10vh;
+		position: fixed; /* Para mantenerlo en la parte inferior */
+		bottom: 0; /* Coloca el navbar en la parte inferior */
+		width: 100%; /* Ancho completo */
+		background-color: var(--color-maroon);
+		margin: 0;
+
+	}
+
+	.menu{
+		flex-direction: row;
+		align-items: center;
+		/* justify-content: center; */
+		margin: 0 100px;
+	}
+
+
 	.main1, .main2, .main3{
 		flex-direction: column;
 }
 } 
-
-* {
-    font-family: 'Jost', sans-serif;
-}
