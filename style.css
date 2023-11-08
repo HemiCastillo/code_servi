@@ -1,6 +1,16 @@
 @import url(reset.css);
 @import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;700&display=swap');
 
+:root{
+	--color-white: #fff;
+	--color-pink: #E19898;
+	--color-dark-purple: #44274D;
+	--color-light-purple: #4D3C77;
+	--color-maroon: #3F1D38;
+	--color-black: #f000;
+
+}
+
 /*desktop*/
 @media screen and (max-width: 1200px){
 	.main1, .main2, .main3{
