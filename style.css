@@ -8,7 +8,17 @@
 	--color-light-purple: #4D3C77;
 	--color-maroon: #3F1D38;
 	--color-black: #f000;
-	/* crear vARIABLES del font-size */
+	--font-size-h1-d: 80px;
+	--font-size-h1-m: 48px;  
+	--font-weight-h1: 400;
+	--font-size-h2: 30px;
+	--font-weight-h2: 700;
+	--font-size-h3: 30px;
+	--font-weight-h3: 400;
+	--font-size-p: 20px;
+	--font-weight-p: 400;
+	
+
 
 }
 
