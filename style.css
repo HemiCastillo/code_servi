@@ -7,13 +7,13 @@
 	--color-dark-purple: #44274D;
 	--color-light-purple: #4D3C77;
 	--color-maroon: #3F1D38;
-	--color-black: #f000;
+	--color-black: #000000;
 	--font-size-h1-d: 80px;
 	--font-size-h1-m: 48px;  
 	--font-weight-h1: 400;
 	--font-size-h2: 30px;
 	--font-weight-h2: 700;
-	--font-size-h3: 30px;
+	--font-size-h3: 20px;
 	--font-weight-h3: 400;
 	--font-size-p: 20px;
 	--font-weight-p: 400;
@@ -86,8 +86,28 @@ a{
 	padding: 50px 0; /*creo que no es */
 }
 
+.index_footer li a{
+	align-items: center;
+}
+
+.index_footer li h3{
+	color:  var(--color-white);
+	font-size: var(--font-size-h3);
+	font-weight: var(--font-weight-h3);
+}
+.index_footer li p{
+	color: var(--color-black);
+	font-size: var(--font-size-p);
+	font-weight: var(--font-weight-p);
+}
+
 .index_footer li a img{
 	width:160px;
+	height: auto;
+}
+
+.index_footer li a .linkedinMini{
+	width: 55px;
 	height: auto;
 }
 
