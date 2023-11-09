@@ -143,7 +143,7 @@ a {
 	margin-top: 20px;
 }
 
-.mainCoder{
+.container{
 	display: flex;
 	flex-direction: row;
 	width: 100%;
@@ -183,7 +183,7 @@ a {
 .asideUser p{
 	font: var(--font-p-d);
 }
-/*button*/
+
 .callButton{
 	background: var(--color-light-purple);
 	color: var(--color-white);
@@ -194,10 +194,9 @@ a {
 	height: 37px;
 	float: right;
 }
-.button{
+.Button{
 	padding: 30px;
 
-}
 
 
 /*desktop*/
