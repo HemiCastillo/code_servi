@@ -1,29 +1,47 @@
 @import url(reset.css);
 @import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;700&display=swap');
 
-:root{
+:root {
 	--color-white: #fff;
 	--color-pink: #E19898;
 	--color-dark-purple: #44274D;
 	--color-light-purple: #4D3C77;
 	--color-maroon: #3F1D38;
-	--color-black: #f000;
-	/* crear vARIABLES del font-size */
+	--color-black: #000000;
+	--font-h1-d: 400 80px 'Jost', sans-serif;
+	--font-h1-m: 400 48px 'Jost', sans-serif;
+	--font-h2: 700 30px 'Jost', sans-serif;
+	--font-h3-d: 400 20px 'Jost', sans-serif;
+	--font-p-d: 400 20px 'Jost', sans-serif;
+	--font-p-m: 400 18px 'Jost', sans-serif;
+
+
+	/*--font-size-h1-d: 80px;
+	--font-size-h1-m: 48px;  
+	--font-weight-h1: 400;
+	--font-size-h2: 30px;
+	--font-weight-h2: 700;
+	--font-size-h3: 20px;
+	--font-weight-h3: 400;
+	--font-size-p: 20px;
+	--font-weight-p: 400;*/
+
+
 
 }
 
-*{
+* {
 	font-family: 'Jost', sans-serif;
 	text-decoration: none;
 	font-size: 18px;
 }
 
-a{
+a {
 	text-decoration: none;
 }
 
-.header{
-	background-color: #E19898;
+.header {
+	background-color: var(--color-pink);
 	width: 100%;
 	display: flex;
 	justify-content: space-between;
@@ -32,24 +50,25 @@ a{
 	flex-direction: row;
 }
 
-.logo{
+.logo {
 	margin: 5px 30px;
 }
 
-.navbar{
+.navbar {
 	display: flex;
 	flex-direction: row;
 	width: 15%;
 	justify-content: space-between;
 	margin: 5px 30px;
 }
-.menu{
+
+.menu {
 	display: flex;
 	justify-content: space-around;
 	width: 100%;
 }
 
-.menu li a{
+.menu li a {
 	color: var(--color-white);
 }
 
@@ -61,42 +80,87 @@ a{
 	border-radius: 20px;
 	border: 1px solid var(--color-white);
 }
-  
+
 .link:hover {
-	text-decoration:none;
-	cursor:pointer;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+
+.index_footer ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	background-color: var(--color-pink);
+	padding: 50px 0;
+	/*creo que no es */
+}
+
+.index_footer li {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+
+.index_footer li h3 {
+	color: var(--color-white);
+	font: var(--font-h3);
+}
+
+.index_footer li p {
+	color: var(--color-black);
+	font: var(--font-p-d);
+}
+
+.index_footer li a img {
+	width: 160px;
+	height: auto;
+}
+
+.index_footer li a .linkedinMini {
+	width: 55px;
+	height: auto;
 }
 
 /*desktop*/
-@media screen and (max-width: 1200px){
-	.main1, .main2, .main3{
+@media screen and (max-width: 1200px) {
+
+	.main1,
+	.main2,
+	.main3 {
 		flex-direction: column;
+	}
 }
-} 
 
 /*mobile*/
-@media screen and (max-width: 768px){
-	.header{
+@media screen and (max-width: 768px) {
+	.header {
 		display: flex;
 		justify-content: center;
 	}
 
-	.logo{
-		justify-content: center; /* Centra horizontalmente */
-  		align-items: center; /* Centra verticalmente */
+	.logo {
+		justify-content: center;
+		/* Centra horizontalmente */
+		align-items: center;
+		/* Centra verticalmente */
 	}
 
-	.navbar{
+	.navbar {
 		height: 10vh;
-		position: fixed; /* Para mantenerlo en la parte inferior */
-		bottom: 0; /* Coloca el navbar en la parte inferior */
-		width: 100%; /* Ancho completo */
+		position: fixed;
+		/* Para mantenerlo en la parte inferior */
+		bottom: 0;
+		/* Coloca el navbar en la parte inferior */
+		width: 100%;
+		/* Ancho completo */
 		background-color: var(--color-maroon);
 		margin: 0;
 
 	}
 
-	.menu{
+	.menu {
 		flex-direction: row;
 		align-items: center;
 		/* justify-content: center; */
@@ -104,7 +168,18 @@ a{
 	}
 
 
-	.main1, .main2, .main3{
+	.main1,
+	.main2,
+	.main3 {
 		flex-direction: column;
+	}
+
+	.index_footer ul {
+		justify-content: flex-start;
+		flex-wrap: wrap;
+		padding: 50px;
+	}
+	.index_footer li p {
+		font: var(--font-p-m);
+	}
 }
-} 
