@@ -143,7 +143,7 @@ a {
 	margin-top: 20px;
 }
 
-.mainCoder{
+.container{
 	display: flex;
 	flex-direction: row;
 	width: 100%;
