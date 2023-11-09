@@ -264,12 +264,6 @@ a {
 	}
 
 
-	.main1,
-	.main2,
-	.main3 {
-		flex-direction: column;
-	}
-
 	
 	/* FOOTER */
 	.footer{
