@@ -10,7 +10,8 @@
 	--color-black: #000000;
 	--font-h1-d: 400 80px 'Jost', sans-serif;
 	--font-h1-m: 400 48px 'Jost', sans-serif;
-	--font-h2: 700 30px 'Jost', sans-serif;
+	--font-h2-d: 400 30px 'Jost', sans-serif;
+	--font-h2-m: 400 20px 'Jost', sans-serif;
 	--font-h3-d: 400 20px 'Jost', sans-serif;
 	--font-p-d: 400 20px 'Jost', sans-serif;
 	--font-p-m: 400 18px 'Jost', sans-serif;
@@ -121,6 +122,41 @@ a {
 .index_footer li a .linkedinMini {
 	width: 55px;
 	height: auto;
+}
+
+.mainCoder{
+	display: flex;
+	flex-direction: row;
+	
+}
+.section-gota{
+	margin: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: var(--color-pink);
+	width: 468px;
+	height: 468px;
+	border-radius: 500px 0 500px 500px;
+}
+
+.section-gota .imgFoto{
+	width: 420px;
+	height: 420px;
+}
+
+
+.aside-user h1{
+	font: var(--font-h1-d);
+	color: var(--color-pink);
+}
+
+.aside-user h2{
+	font: var(--font-h2-d);
+	color: var(--color-maroon);
+}
+.aside-user p{
+	font: var(--font-p-d);
 }
 
 /*desktop*/
