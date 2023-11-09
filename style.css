@@ -149,6 +149,7 @@ a {
 .aside-user h1{
 	font: var(--font-h1-d);
 	color: var(--color-pink);
+
 }
 
 .aside-user h2{
@@ -219,3 +220,7 @@ a {
 		font: var(--font-p-m);
 	}
 }
+
+
+/*Estilo formulario*/ 
+ 
