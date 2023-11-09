@@ -117,7 +117,7 @@ a {
 	
 }
 
-.sectionDrop .imgPhoto{
+.imgPhoto{
 	width: 420px;
 	height: 420px;
 }
@@ -224,16 +224,6 @@ a {
 }
 
 
-/*DESKTOP*/
-@media screen and (max-width: 1200px) {
-
-	.main1,
-	.main2,
-	.main3 {
-		flex-direction: column;
-	}
-}
-
 /* MOBILE */
 @media screen and (max-width: 768px) {
 	.header {
@@ -266,6 +256,49 @@ a {
 		align-items: center;
 		margin: 0 100px;
 	}
+
+
+	/*MAIN*/
+	.container{
+		display: flex;
+		flex-direction: column;
+		width: 99%;
+		margin: 40px 0;
+	}
+
+	.sectionDrop{
+		width: 350px;
+		height: 350px;	;
+	}
+	
+	.imgPhoto{
+		width: 310px;
+		height: 310px;
+	}
+
+	.title{
+		font: var(--font-h1-m);
+		margin: 0;
+		line-height: 40px;
+	}
+	.home{
+		margin: 0 40px;
+		width: 90%;
+	}
+
+	.titleAside h2{
+		font: var(--font-h2-m);
+	}
+
+	.asideLinks{
+		margin-top: 30px;
+	}
+
+	.callButton{
+		font: var(--font-p-m)
+	}
+
+
 
 
 	
