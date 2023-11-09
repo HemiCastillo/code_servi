@@ -146,9 +146,10 @@ a {
 .mainCoder{
 	display: flex;
 	flex-direction: row;
+	width: 100%;
 	
 }
-.section-gota{
+.sectionDrop{
 	margin: 50px;
 	display: flex;
 	align-items: center;
@@ -157,27 +158,48 @@ a {
 	width: 468px;
 	height: 468px;
 	border-radius: 500px 0 500px 500px;
+	
 }
 
-.section-gota .imgFoto{
+.sectionDrop .imgPhoto{
 	width: 420px;
 	height: 420px;
 }
 
-
-.aside-user h1{
+.asideUser{
+	width: 40%;
+}
+.asideUser h1{
 	font: var(--font-h1-d);
 	color: var(--color-pink);
 
+	line-height:100px;
 }
 
-.aside-user h2{
+.asideUser h2{
 	font: var(--font-h2-d);
 	color: var(--color-maroon);
+	line-height:150px;
 }
-.aside-user p{
+.asideUser p{
 	font: var(--font-p-d);
 }
+/*button*/
+.callButton{
+	background: var(--color-light-purple);
+	color: var(--color-white);
+	padding: 5px 15px;
+	border-radius: 20px;
+	display: flex;
+	width: 130px;
+	height: 37px;
+	float: right;
+}
+.Button{
+	padding: 30px;
+
+}
+
 
 /*desktop*/
 @media screen and (max-width: 1200px) {
