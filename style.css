@@ -8,12 +8,12 @@
 	--color-light-purple: #4D3C77;
 	--color-maroon: #3F1D38;
 	--color-black: #000000;
-	--font-h1-d: 400 80px 'Jost', sans-serif;
+	--font-h1-d: 400 80px 'Jost', sans-serif;      
 	--font-h1-m: 400 48px 'Jost', sans-serif;
 	--font-h2: 700 30px 'Jost', sans-serif;
 	--font-h3-d: 400 20px 'Jost', sans-serif;
 	--font-p-d: 400 20px 'Jost', sans-serif;
-	--font-p-m: 400 18px 'Jost', sans-serif;
+	--font-p-m: 400 18px 'Jost', sans-serif; 
 
 
 	/*--font-size-h1-d: 80px;
@@ -86,41 +86,53 @@ a {
 	cursor: pointer;
 }
 
+.indexFooter{
+	display: flex;
+	flex-direction: row;
+	background-color: var(--color-pink);
+	justify-content: space-around;
+	
+}
 
-.index_footer ul {
+.indexFooter ul {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
 	background-color: var(--color-pink);
-	padding: 50px 0;
-	/*creo que no es */
+	padding: 30px 0;
 }
 
-.index_footer li {
+.indexFooter li {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	margin: 0 45px;
 }
 
 
-.index_footer li h3 {
+.indexFooter li h3 {
+	margin-top: 10px;
 	color: var(--color-white);
 	font: var(--font-h3);
 }
 
-.index_footer li p {
+.indexFooter li p {
 	color: var(--color-black);
 	font: var(--font-p-d);
+	margin-top: 10px;
+	
 }
 
-.index_footer li a img {
+.indexFooter li a img {
 	width: 160px;
 	height: auto;
+	margin-top: 10px;
 }
 
-.index_footer li a .linkedinMini {
-	width: 55px;
+.indexFooter li a .linkedinMini {
+	width: 50px;
 	height: auto;
+	margin-top: 10px;
 }
 
 /*desktop*/
@@ -174,12 +186,12 @@ a {
 		flex-direction: column;
 	}
 
-	.index_footer ul {
+	.indexFooter ul {
 		justify-content: flex-start;
 		flex-wrap: wrap;
 		padding: 50px;
 	}
-	.index_footer li p {
+	.indexFooter li p {
 		font: var(--font-p-m);
 	}
 }
