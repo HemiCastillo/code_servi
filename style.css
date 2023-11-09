@@ -161,7 +161,7 @@ a {
 	
 }
 
-.sectionDrop .imgFoto{
+.sectionDrop .imgPhoto{
 	width: 420px;
 	height: 420px;
 }
@@ -172,11 +172,13 @@ a {
 .asideUser h1{
 	font: var(--font-h1-d);
 	color: var(--color-pink);
+	line-height:100px;
 }
 
 .asideUser h2{
 	font: var(--font-h2-d);
 	color: var(--color-maroon);
+	line-height:150px;
 }
 .asideUser p{
 	font: var(--font-p-d);
