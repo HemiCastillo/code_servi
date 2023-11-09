@@ -8,13 +8,13 @@
 	--color-light-purple: #4D3C77;
 	--color-maroon: #3F1D38;
 	--color-black: #000000;
-	--font-h1-d: 400 80px 'Jost', sans-serif;
+	--font-h1-d: 400 80px 'Jost', sans-serif;      
 	--font-h1-m: 400 48px 'Jost', sans-serif;
 	--font-h2-d: 400 30px 'Jost', sans-serif;
 	--font-h2-m: 400 20px 'Jost', sans-serif;
 	--font-h3-d: 400 20px 'Jost', sans-serif;
 	--font-p-d: 400 20px 'Jost', sans-serif;
-	--font-p-m: 400 18px 'Jost', sans-serif;
+	--font-p-m: 400 18px 'Jost', sans-serif; 
 
 
 	/*--font-size-h1-d: 80px;
@@ -35,6 +35,11 @@
 	font-family: 'Jost', sans-serif;
 	text-decoration: none;
 	font-size: 18px;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 a {
@@ -88,40 +93,54 @@ a {
 }
 
 
-.index_footer ul {
+/* FOOTER */
+.footer{
+	margin-top: auto;
+	display: flex;
+	flex-direction: row;
+	background-color: var(--color-pink);
+	justify-content: space-around;
+	
+}
+
+.footer ul {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
 	background-color: var(--color-pink);
-	padding: 50px 0;
-	/*creo que no es */
+	padding: 30px 0;
 }
 
-.index_footer li {
+.footer li {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	margin: 0 45px;	
 }
 
 
-.index_footer li h3 {
+.footer li h3 {
+	margin-top: 20px;
 	color: var(--color-white);
 	font: var(--font-h3);
 }
 
-.index_footer li p {
+.footer li p {
 	color: var(--color-black);
 	font: var(--font-p-d);
+	/* margin-top: 10px; */
+	
 }
 
-.index_footer li a img {
+.footer li a img {
 	width: 160px;
 	height: auto;
 }
 
-.index_footer li a .linkedinMini {
-	width: 55px;
+.footer li a .linkedinMini {
+	width: 50px;
 	height: auto;
+	margin-top: 20px;
 }
 
 .mainCoder{
@@ -211,12 +230,47 @@ a {
 		flex-direction: column;
 	}
 
-	.index_footer ul {
-		justify-content: flex-start;
+	
+	/* FOOTER */
+	.footer{
+		display: flex;
 		flex-wrap: wrap;
-		padding: 50px;
+		bottom: 1;
 	}
-	.index_footer li p {
+
+	.footer ul {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		padding: 30px;
+	}
+
+
+	.footer li{
+		margin: 0 0 30px 0;
+	}
+	
+	.footer li:last-child {
+		/* margin: 0 0 70px 0; */
+		margin-bottom: 90px;
+		justify-content: center;
+		display: flex;
+		align-items: center;
+		justify-content: flex-start;
+	  }
+	  .footer li p:last-child {
+		text-align: center;
+		align-items: center;
+
+	  }
+	  .footer li h3:last-child {
+		text-align: center;
+		align-items: center;
+		padding-left: 20px;
+
+	  }
+
+	.footer li p {
 		font: var(--font-p-m);
 	}
 }
