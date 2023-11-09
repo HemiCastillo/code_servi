@@ -16,19 +16,6 @@
 	--font-p-d: 400 20px 'Jost', sans-serif;
 	--font-p-m: 400 18px 'Jost', sans-serif; 
 
-
-	/*--font-size-h1-d: 80px;
-	--font-size-h1-m: 48px;  
-	--font-weight-h1: 400;
-	--font-size-h2: 30px;
-	--font-weight-h2: 700;
-	--font-size-h3: 20px;
-	--font-weight-h3: 400;
-	--font-size-p: 20px;
-	--font-weight-p: 400;*/
-
-
-
 }
 
 * {
@@ -288,8 +275,17 @@ a {
 		width: 90%;
 	}
 
+	.mobile{
+		margin: 0 40px;
+		width: 90%;
+	}
+
 	.titleAside h2{
 		font: var(--font-h2-m);
+	}
+
+	.titleAside p{
+		font: var(--font-p-m);
 	}
 
 	.asideLinks{
