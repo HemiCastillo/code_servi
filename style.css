@@ -191,6 +191,8 @@ a {
 	padding: 30px 0;
 }
 
+
+
 .footer li {
 	display: flex;
 	flex-direction: column;
@@ -344,3 +346,7 @@ a {
 		font: var(--font-p-m);
 	}
 }
+
+
+/*Estilo formulario*/ 
+ 
