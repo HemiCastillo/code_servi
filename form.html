@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,7 +9,7 @@
 <body>
     <header class="header">
         <!-- Logo -->
-        <a href="./index.html" class="logo"><img src="./assets/img/CodeServices.svg" alt="logo Empresa" srcset=""></a>
+        <a href="#" class="logo"><img src="./assets/img/CodeServices.png" alt="logo Empresa" srcset=""></a>
         
         <!-- Menu -->
         <nav class="navbar">
@@ -20,28 +20,38 @@
         </nav>
     </header>
 
-    <!-- Main -->
-    <main class="container">
+    <main>
+        <h1 class="formH">Contáctanos</h1>
 
-        <section class="sectionDrop">
-            <img src="./assets/img/profile-photo-group.png" alt="foto de equipo" class="imgPhoto">
-        </section>
-
-            
-        </aside>
-
-        <aside class="titleAside home">
-            <h1 class="title">
-                Consultoras<br>
-                tecnológicas</h1>
-            <h2>Especialista en desarrollo web</h2>
-
-            <div class="asideLinks">
-                <button class="callButton"><a href="#"></a>Te llamamos</button>
-            </div>                 
-     </aside>     
-
+        <section class="formContact">
+            <form>
+            <div class="mother">
+              <div class="formName">
+                <label for="nombre">Nombre</label>
+                <input type="text" name="nombre" id="nombre" placeholder="Escribe tu nombre...">
+              </div>
+        
+              <div class="formMail">
+                <label for="mail">Mail</label>
+                <input type="email" name="mail" id="mail" placeholder="Escribe tu mail...">
+              </div>
+        
+              <div class="formCamp">
+                <label for="consulta">Consult</label>
+                <textarea name="consulta" id="consulta" placeholder="Escribe tu consulta..."></textarea>
+              </div>
+            </div>
+              <div class="formButton">
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Cancelar">
+              </div>
+            </form>
+          </section>
+        
     </main>
+
+
+
 
     <footer class="footer">
         <ul>

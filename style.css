@@ -345,4 +345,51 @@ a {
 
 
 /*Estilo formulario*/ 
- 
+  .formH {
+	font: var(--font-h1-d);
+	text-align: left;
+	margin-bottom: 30px;
+	color: var(--color-pink);
+	margin-left: 80px;
+	margin-top: 50px;
+  }
+  .formContact {
+	width: 400px;
+	margin: 0 auto;
+	padding: 20px;
+	border-radius: 5px;
+  }
+  
+  .formContact input,.formContact textarea {
+	width: 100%;
+	margin-bottom: 20px;
+	background-color: #F9EAEA; /*pone color rosa en figma*/
+	border: none;
+	padding: 5px;
+	border-radius: 20px;
+  }
+  
+  .formContact .formName,
+  .formContact .formMail,
+  .formContact .formCamp,
+  .formContact .formButton {
+	margin-bottom: 20px;
+  }
+  
+.mother label{
+	color: var(--color-maroon);
+	font: var(--font-p-d);
+}
+
+  .formContact .formButton input {
+	background-color: lightcoral;
+	color: #fff;
+	border: none;
+	padding: 10px 1px;
+	border-radius: 50px;
+	cursor: pointer;
+  }
+  
+  .formContact .formButton input:hover {
+	background-color: #ff0000;
+  }
