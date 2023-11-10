@@ -253,7 +253,7 @@ a {
 
 
 /* FOOTER */
-.footer{
+.footer, .footerForm{
 	margin-top: auto;
 	display: flex;
 	flex-direction: row;
@@ -262,7 +262,7 @@ a {
 	
 }
 
-.footer ul {
+.footer ul, .footerForm ul {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
@@ -272,7 +272,7 @@ a {
 
 
 
-.footer li {
+.footer li, .footerForm li {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -280,24 +280,24 @@ a {
 }
 
 
-.footer li h3 {
+.footer li h3, .footerForm li h3{
 	margin-top: 20px;
 	color: var(--color-white);
 	font: var(--font-h3);
 }
 
-.footer li p {
+.footer li p, .footerForm li p{
 	color: var(--color-black);
 	font: var(--font-p-d);
 	
 }
 
-.footer li a img {
+.footer li a img, .footerForm li a img {
 	width: 160px;
 	height: auto;
 }
 
-.footer li a .linkedinMini {
+.footer li a .linkedinMini, .footerForm li a .linkedinMini {
 	width: 50px;
 	height: auto;
 	margin-top: 20px;
@@ -430,6 +430,8 @@ a {
 		margin: 0;
 	}
 
+	
+
 
 	
 	/* FOOTER */
@@ -437,6 +439,12 @@ a {
 		display: flex;
 		flex-wrap: wrap;
 		bottom: 1;
+	}
+	
+	.footerForm{
+		position: unset;
+        display: none;
+
 	}
 
 	.footer ul {
