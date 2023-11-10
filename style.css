@@ -157,14 +157,7 @@ a {
 
 
 /*Estilo formulario*/ 
-.formH {
-	font: var(--font-h1-d);
-	text-align: left;
-	margin-bottom: 30px;
-	color: var(--color-pink);
-	margin-left: 80px;
-	margin-top: 50px;
-}
+
  
 .formContact {
 	width: 400px;
