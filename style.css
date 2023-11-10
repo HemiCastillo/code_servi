@@ -156,48 +156,99 @@ a {
 }
 
 
-/*Estilo formulario*/ 
+/*Estilo formulario*/
 
- 
-.formContact {
-	width: 400px;
-	margin: 0 auto;
-	padding: 20px;
-	border-radius: 5px;
+.containerForm{
+	width: 100%;
+	padding: 30px
 }
-  
+
+.titleForm{
+	font: var(--font-h1-d);
+	color: var(--color-pink);
+	margin: 0 60px;
+
+}
+
+.formContact {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	width: 100%;
+	margin: 30px 0;
+}
+
+.form{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin: 40px 0;
+}
+
+.formName{
+	display: flex;
+	flex-direction: column;
+}
+.formCamp{
+	display: flex;
+	flex-direction: column;
+	margin: 0 20px;
+}
+
 .formContact input,.formContact textarea {
 	width: 100%;
-	margin-bottom: 20px;
-	background-color: #F9EAEA; /*pone color rosa en figma*/
+	background-color: var(--color-pink);
+	opacity: 30%;
 	border: none;
-	padding: 5px;
+	padding: 8px 15px;
 	border-radius: 20px;
-}
-  
-.formContact .formName,
-.formContact .formMail,
-.formContact .formCamp,
-.formContact .formButton {
-	margin-bottom: 20px;
-}
-  
-.mother label{
-	color: var(--color-maroon);
-	font: var(--font-p-d);
+	
 }
 
-.formContact .formButton input {
+.formContact input{
+	width: 310px;
+	
+}
+
+.formContact textarea{
+	width: 300px;
+	height: 100px;
+} 
+  
+.form label{
+	color: var(--color-light-purple);
+	font: var(--font-p-d);
+	padding-left: 15px;
+}
+
+.formButton input {
 	background-color: lightcoral;
 	color: #fff;
 	border: none;
 	padding: 10px 1px;
 	border-radius: 50px;
 	cursor: pointer;
+	width: 40%;
 }
-  
-.formContact .formButton input:hover {
-	background-color: #ff0000;
+
+.formButton input:first-child{
+	background-color: var(--color-light-purple);
+	opacity: 100%;
+	width: 20%;
+}
+
+.formButton input:last-child{
+	background-color: var(--color-pink);
+	opacity: 100%;
+	width: 20%;
+}
+.formButton input:first-child:hover {
+	background-color: var(--color-pink);
+}
+
+.formButton input:last-child:hover {
+	background-color: var(--color-light-purple)
 }
 
 

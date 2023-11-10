@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,7 +9,7 @@
 <body>
     <header class="header">
         <!-- Logo -->
-        <a href="#" class="logo"><img src="./assets/img/CodeServices.png" alt="logo Empresa" srcset=""></a>
+        <a href="./index.html" class="logo"><img src="./assets/img/CodeServices.svg" alt="logo Empresa CodeServices"></a>
         
         <!-- Menu -->
         <nav class="navbar">
@@ -20,30 +20,28 @@
         </nav>
     </header>
 
-    <main>
-        <h1 class="title">Contáctanos</h1>
+    <main class="containerForm">
+        <h1 class="titleForm">Contáctanos</h1>
 
         <section class="formContact">
             <form>
-            <div class="mother">
-              <div class="formName">
-                <label for="nombre">Nombre</label>
-                <input type="text" name="nombre" id="nombre" placeholder="Escribe tu nombre...">
+              <div class="form">
+
+                <div class="formName">
+                  <label for="nombre">Nombre</label>
+                  <input type="text" name="nombre" id="nombre" placeholder="Escribe tu nombre...">
+                  <label for="mail">Mail</label>
+                  <input type="email" name="mail" id="mail" placeholder="Escribe tu mail...">
+                </div>
+          
+                <div class="formCamp">
+                  <label for="consulta">Consulta</label>
+                  <textarea name="consulta" id="consulta" placeholder="Escribe tu consulta..."></textarea>
+                </div>
               </div>
-        
-              <div class="formMail">
-                <label for="mail">Mail</label>
-                <input type="email" name="mail" id="mail" placeholder="Escribe tu mail...">
-              </div>
-        
-              <div class="formCamp">
-                <label for="consulta">Consult</label>
-                <textarea name="consulta" id="consulta" placeholder="Escribe tu consulta..."></textarea>
-              </div>
-            </div>
               <div class="formButton">
-                <input type="submit" value="Enviar">
-                <input type="reset" value="Cancelar">
+                <input type="submit" value="Enviar" class="send">
+                <input type="reset" value="Cancelar" class="cancel">
               </div>
             </form>
           </section>
