@@ -395,6 +395,40 @@ a {
 	}
 
 
+	/* FORM */
+	.containerForm{
+		padding: 30px 0;
+	}
+	.titleForm{
+		font: var(--font-h1-m);
+	}
+	.formContact{
+		margin: 0;
+		justify-content: center;
+		width: 100%;
+	}
+	.form{
+		flex-direction: column;
+	}
+	.formButton{
+		display: flex;
+		justify-content: space-around;
+	}
+	.formButton input{
+		width: 100%;
+	}
+
+	.formButton input:first-child{
+		width: 40%;
+	}
+
+	.formButton input:last-child{
+		width: 40%;
+	}
+
+	.formCamp{
+		margin: 0;
+	}
 
 
 	
