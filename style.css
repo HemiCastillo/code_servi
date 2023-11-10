@@ -141,7 +141,7 @@ a {
 .asideLinks{
 	display: flex;
 	flex-direction: row;
-    justify-content: space-between;
+	justify-content:space-between;
     margin: 40px 0;
     width: 40%;
 }
@@ -149,11 +149,12 @@ a {
 .callButton{
 	background: var(--color-light-purple);
     color: var(--color-white);
-    padding: 5px 25px;
+    padding: 10px 25px; /*el boton me parecia muy pequeño, revisar otra vez*/
     border-radius: 25px;
     display: flex;
-    
 	align-items: center;
+	font: var(--font-p-d);
+	
 }
 
 
@@ -290,10 +291,14 @@ a {
 
 	.asideLinks{
 		margin-top: 30px;
-	}
+		width: 100%;
+		justify-content: space-evenly;
+    	margin: 40px -40px;
+    }
 
 	.callButton{
-		font: var(--font-p-m)
+		font: var(--font-p-m);
+		
 	}
 
 
